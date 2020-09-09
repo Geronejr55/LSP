@@ -1,0 +1,9 @@
+module Assn1;
+{
+	import static org.junit.Assert;
+	public class total_combinationTest;
+	@Test
+	
+	public void main test()
+	fail("Not implemented")
+}
