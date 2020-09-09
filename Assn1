@@ -1,9 +1,9 @@
 module Assn1;
 {
-	import static org.junit.Assert;
+	import 
 	public class total_combinationTest;
-	@Test
+	public class total_driverclass;
 	
 	public void main test()
-	fail("Not implemented")
 }
+
