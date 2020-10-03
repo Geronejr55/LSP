@@ -3,9 +3,10 @@ public class IntegerSet  {
 set.clear();
 public void clear() {
 }
+public int length() {
+return set.size();
+}
 
-// Returns the length of the set
-public int length() {…}; // returns the length
 
 /*
               * Returns true if the 2 sets are equal, false otherwise;
