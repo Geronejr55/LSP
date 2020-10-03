@@ -81,9 +81,13 @@ Sets.SetView < Integer >
 }
 
 
-
-// Set intersection
-public static public intSet intersect(IntegerSet intSetb) {…}; 
+public static public intSet intersect(IntegerSet intSetb) {
+ArrayList < Integer > temp = (ArrayList < Integer >) intSetb.set;
+   IntegerSet temp1 = new IntegerSet(set);
+   //Intersect?
+   return temp1;
+}
+ 
 
 // Set difference, i.e., s1 –s2
 public static intSet diff(IntegerSet intSetb); // set difference, i.e. s1 - s2
