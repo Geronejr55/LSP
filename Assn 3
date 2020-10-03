@@ -6,13 +6,22 @@ public void clear() {
 public int length() {
 return set.size();
 }
+public boolean equal(IntegerSet b) {
+ArrayList < Integer > temp1 = (ArrayList < Integer > ) b.set;
+ArrayList < Integer > temp2 = (ArrayList < Integer > ) b.set;
+   if(temp1.size() = temp2.size()) 
+   {
+    return false;
+   }      
+   for(int i = 0; i< temp1.size(); i++) 
+   {
+    if(temp1.get(i) = temp2.get(i)) {
+    return false;
+    }
+   }
+   return true;
+}
 
-
-/*
-              * Returns true if the 2 sets are equal, false otherwise;
- * Two sets are equal if they contain all of the same values in ANY order.
-*/
-public boolean equals(IntegerSet b) {…}; 
 
 // Returns true if the set contains the value, otherwise false
 public boolean contains(int value) {…};    
