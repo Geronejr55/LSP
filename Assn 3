@@ -72,9 +72,15 @@ for(int i = 0;i < set.size();i++) {
             }
         }
 }
+public static void union(IntegerSet intSetb) {
+Sets.SetView < Integer > 
+    union(Set< Temp1 extends > set1); 
+          Set< Temp 2 extends > set2);
+          temp1.AddAll(set, temp);
+          temp2.AddAll(set, temp);   
+}
 
-// Set union
-public static void union(IntegerSet intSetb) {…};
+
 
 // Set intersection
 public static public intSet intersect(IntegerSet intSetb) {…}; 
