@@ -1,10 +1,8 @@
 public class IntegerSet  {
-	// Hint: probably best to use an array list.  You will need to do a little research
-	private List<Integer> set = new ArrayList<Integer>();
     this.set = set;
+set.clear();
+public void clear() {
 }
-	// Clears the internal representation of the set
-public void clear() {…};
 
 // Returns the length of the set
 public int length() {…}; // returns the length
