@@ -54,9 +54,15 @@ min = set.get(i);
 }
 return min;
 }
+ public void add(int item) {
+ int present = 0;
+        for(int i = 0;i < set.size();i++) {
+            if(set.get(i)==int item) 
+        }
+        if(present==0) {
+            set.add(int item);
+        }
 
-	// Adds an item to the set or does nothing it already there	
- 	public void add(int item) {…}; // adds item to s or does nothing if it is in set
 
 	// Removes an item from the set or does nothing if not there
 public void remove(int item) {…}; 
