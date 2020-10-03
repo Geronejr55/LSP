@@ -94,8 +94,12 @@ IntegerSet temp1 = new IntegerSet(set);
    //Diff?
    return temp1;
 
-// Returns true if the set is empty, false otherwise
 boolean isEmpty(); 
+if(set.size() == 0) {
+return true;
+}
+return false;
+}
 
 // Return String representation of your set
 public String toString() {…};	// return String representation of your set
