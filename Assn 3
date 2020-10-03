@@ -100,7 +100,6 @@ return true;
 }
 return false;
 }
-
-// Return String representation of your set
-public String toString() {…};	// return String representation of your set
+public String toString() {
 }
+
